@@ -1,0 +1,118 @@
+    /*estilos generales de la página*/
+    body {
+	 font-family:arial,sans-serif;
+	 margin:0;
+	 padding:0;
+	 background-color:#009900;
+	 text-aling:center;
+	 color:#0d47a1;
+    }
+    /*estilos para la cabecera*/
+    header {
+	 background-color:#666600;
+	 color:white;
+	 padding:20px;
+	 font-size:28px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 letter-spacing:2px;
+	 display:flex; 
+	 aling-items:center;
+	 justify-content:center;
+	 gap:15px;
+    }
+    header img {
+	 height:100px;
+    }
+    header span {
+	  color black;
+    }
+     /*estilos para la barra de navegacion*/
+     nav {
+	   background:linear-gradient(90deg,#006600,#996633);
+       padding:15px;
+     box-shadow:0 4px 8px rgba(0,0,0,0.3);
+    }
+    ul {
+	  list-style:none;
+	  margin:0;
+	  padding:0;
+	  display:flex;
+	  justify-content: center;
+    }
+    li {
+	 position: relative;
+	 margin:0 15px;
+    }
+    a {
+	   text-decoration: none;
+	   color: white;
+	   padding: 12px 25px;
+	   display: block;
+	   font-size: 18px;
+	   font-weight: bold;
+	   text-transform: uppercase;
+	   transition: all 0.3 ease-in-out;
+	   border-radius: 8px;
+    }
+    a:hover {
+		background-color:#ffeb3b;
+		color:#0d47a1;
+		transform:scale(1.1);
+   }
+    .submenu {
+	    display:none;
+        position:absolute;
+	    top:100%;
+	   left:0;
+	   background-color: #1e88e5;
+	   min-width: 180px;
+	   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+	   border-radius: 8px;
+	   overflow: hidden;
+    }
+    .submenu a {
+    	padding: 12px;
+    	font-size: 16px;
+    	transition: all 0.3s ease-in-out;
+    }
+    .submenu a:hover {
+    	background-color: #ffeb3b;
+    	color: #0d47a1;
+    }
+    li:hover .submene {
+    	display: block;
+    }
+    /*estilos para la seccion de imágenes con cuadros de texto*/
+    .image-container {
+    	display: flex;
+    	justify-content: center;
+    	gap: 20px;
+    	margin: 20px;
+    }
+    .image-box {
+    	width: 45%;
+    	border-radius: 10px;
+    	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    	background-color: white;
+    	text-aling: center;
+    	padding: 10px;
+    }
+    .image-box image-box{
+    	width: 45%;
+    	border-radius: 10px;
+    }
+    .text-box {
+    	margin-top: 10px;
+    	background-color: #bbdefb;
+    	padding: 10px;
+    	border-radius: 8px;
+    	font-size: 18px;
+    	color: #0d47a1;
+    	font-weight: bold;
+    }
+
+
+
+    
+
